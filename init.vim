@@ -26,10 +26,8 @@ let NERDTreeShowHidden=1
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"map <C-Tab> :bnext<CR>
-"map <C-s-Tab> :bprev<CR>
-nnoremap <C-L> :bn<CR>
-nnoremap <C-H> :bp<CR>
+nnoremap <C-J> :bn<CR>
+nnoremap <C-K> :bp<CR>
 " @airline
 let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
 "这个是安装字体后 必须设置此项" 
