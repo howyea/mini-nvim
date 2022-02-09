@@ -12,10 +12,10 @@ set autoindent "表示自动缩进
 
 
 "tab操作映射，nnoremap正常模式下不递归的映射
-nnoremap tn  :tabnew<CR>
-nnoremap tj  :tabnext<CR>
-nnoremap tk  :tabprev<CR>
-nnoremap tc  :tabclose<CR>
+"nnoremap tn  :tabnew<CR>
+"nnoremap tj  :tabnext<CR>
+"nnoremap tk  :tabprev<CR>
+"nnoremap tc  :tabclose<CR>
 "插件配置开始
 call plug#begin('~/.vim/plugged')
 " NERDTree
