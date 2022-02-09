@@ -18,10 +18,12 @@ set autoindent "表示自动缩进
 "nnoremap tc  :tabclose<CR>
 "插件配置开始
 call plug#begin('~/.vim/plugged')
+set encoding=UTF-8
+
 " NERDTree
 Plug 'scrooloose/nerdtree'
-map <silent> <C-e> :NERDTreeToggle<CR>
-map <silent> <C-w> :NERDTreeFind<CR>
+nnoremap tt :NERDTreeToggle<CR>
+nnoremap tf :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
