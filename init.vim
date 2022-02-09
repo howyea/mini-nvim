@@ -19,12 +19,28 @@ set autoindent "表示自动缩进
 "插件配置开始
 call plug#begin('~/.vim/plugged')
 set encoding=UTF-8
-
 " NERDTree
 Plug 'scrooloose/nerdtree'
-nnoremap tt :NERDTreeToggle<CR>
-nnoremap tf :NERDTreeFind<CR>
+nnoremap mt :NERDTreeToggle<CR>
+nnoremap mf :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
+function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
+	exec 'autocmd FileType nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+	exec 'autocmd FileType nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
+endfunction
+au VimEnter * call NERDTreeHighlightFile('html', 'yellow', 'none', 'yellow', '#151515')
+au VimEnter * call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
+au VimEnter * call NERDTreeHighlightFile('jsx', 'Red', 'none', '#ffa500', '#151515')
+au VimEnter * call NERDTreeHighlightFile('ts', 'Red', 'none', '#ffa500', '#151515')
+au VimEnter * call NERDTreeHighlightFile('tsx', 'Red', 'none', '#ffa500', '#151515')
+au VimEnter * call NERDTreeHighlightFile('json', 'green', 'none', 'green', '#151515')
+au VimEnter * call NERDTreeHighlightFile('styl', 'Magenta', 'none', 'Magenta', '#151515')
+au VimEnter * call NERDTreeHighlightFile('css', 'Magenta', 'none', 'Magenta', '#151515')
+au VimEnter * call NERDTreeHighlightFile('scss', 'Magenta', 'none', 'Magenta', '#151515')
+au VimEnter * call NERDTreeHighlightFile('less', 'Magenta', 'none', 'Magenta', '#151515')
+au VimEnter * call NERDTreeHighlightFile('png', 'blue', 'none', '#3366FF', '#151515')
+au VimEnter * call NERDTreeHighlightFile('jpg', 'blue', 'none', '#3366FF', '#151515')
+au VimEnter * call NERDTreeHighlightFile('jpeg', 'blue', 'none', '#3366FF', '#151515')
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
