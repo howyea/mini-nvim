@@ -19,6 +19,8 @@ set autoindent "表示自动缩进
 "插件配置开始
 call plug#begin('~/.vim/plugged')
 set encoding=UTF-8
+
+
 " NERDTree
 Plug 'scrooloose/nerdtree'
 nnoremap mt :NERDTreeToggle<CR>
