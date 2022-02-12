@@ -20,34 +20,16 @@ set autoindent "表示自动缩进
 call plug#begin('~/.vim/plugged')
 set encoding=UTF-8
 
-
 " NERDTree
 Plug 'scrooloose/nerdtree'
 nnoremap mt :NERDTreeToggle<CR>
 nnoremap mf :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
-function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
-	exec 'autocmd FileType nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
-	exec 'autocmd FileType nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
-endfunction
-au VimEnter * call NERDTreeHighlightFile('html', 'yellow', 'none', 'yellow', '#151515')
-au VimEnter * call NERDTreeHighlightFile('js', 'Red', 'none', '#ffa500', '#151515')
-au VimEnter * call NERDTreeHighlightFile('jsx', 'Red', 'none', '#ffa500', '#151515')
-au VimEnter * call NERDTreeHighlightFile('ts', 'Red', 'none', '#ffa500', '#151515')
-au VimEnter * call NERDTreeHighlightFile('tsx', 'Red', 'none', '#ffa500', '#151515')
-au VimEnter * call NERDTreeHighlightFile('json', 'green', 'none', 'green', '#151515')
-au VimEnter * call NERDTreeHighlightFile('styl', 'Magenta', 'none', 'Magenta', '#151515')
-au VimEnter * call NERDTreeHighlightFile('css', 'Magenta', 'none', 'Magenta', '#151515')
-au VimEnter * call NERDTreeHighlightFile('scss', 'Magenta', 'none', 'Magenta', '#151515')
-au VimEnter * call NERDTreeHighlightFile('less', 'Magenta', 'none', 'Magenta', '#151515')
-au VimEnter * call NERDTreeHighlightFile('png', 'blue', 'none', '#3366FF', '#151515')
-au VimEnter * call NERDTreeHighlightFile('jpg', 'blue', 'none', '#3366FF', '#151515')
-au VimEnter * call NERDTreeHighlightFile('jpeg', 'blue', 'none', '#3366FF', '#151515')
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-nnoremap <C-J> :bn<CR>
-nnoremap <C-K> :bp<CR>
+nnoremap <C-L> :bn<CR>
+nnoremap <C-H> :bp<CR>
 " @airline
 let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
 "这个是安装字体后 必须设置此项" 
@@ -67,6 +49,8 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'  "formater
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+nnoremap <leader>df :Telescope lsp_definitions<CR>
+nnoremap <leader>lg :Telescope live_grep<CR>
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 "插件配置结束
 call plug#end()
