@@ -28,8 +28,9 @@ let NERDTreeShowHidden=1
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-nnoremap <C-L> :bn<CR>
-nnoremap <C-H> :bp<CR>
+nnoremap <leader>bn :bn<CR>
+nnoremap <leader>bp :bp<CR>
+nnoremap <leader>bd :bd<CR>
 " @airline
 let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
 "这个是安装字体后 必须设置此项" 
@@ -51,6 +52,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 nnoremap <leader>df :Telescope lsp_definitions<CR>
 nnoremap <leader>lg :Telescope live_grep<CR>
+nnoremap <leader>ff :Telescope find_files<CR>
 Plug 'rmagatti/auto-session'
 Plug 'rmagatti/session-lens'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
