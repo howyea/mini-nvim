@@ -51,10 +51,13 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 nnoremap <leader>df :Telescope lsp_definitions<CR>
 nnoremap <leader>lg :Telescope live_grep<CR>
+Plug 'rmagatti/auto-session'
+Plug 'rmagatti/session-lens'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 "插件配置结束
 call plug#end()
 lua <<EOF
+require("telescope").load_extension("session-lens")
 require'lspconfig'.tsserver.setup{}
 require'nvim-treesitter.configs'.setup {
   -- 安装 language parser
@@ -81,3 +84,8 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+
+
+
+
+
