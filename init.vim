@@ -28,8 +28,8 @@ let NERDTreeShowHidden=1
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-nnoremap <leader>bn :bn<CR>
-nnoremap <leader>bp :bp<CR>
+nnoremap <leader>n :bn<CR>
+nnoremap <leader>p :bp<CR>
 nnoremap <leader>bd :bd<CR>
 " @airline
 let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
