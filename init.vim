@@ -29,7 +29,7 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 nnoremap <leader>n :bn<CR>
-nnoremap <leader>p :bp<CR>
+nnoremap <leader>m :bp<CR>
 nnoremap <leader>bd :bd<CR>
 " @airline
 let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
