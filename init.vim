@@ -58,7 +58,6 @@ nnoremap <leader>lg :Telescope live_grep<CR>
 nnoremap <leader>ff :Telescope find_files<CR>
 Plug 'rmagatti/auto-session'
 Plug 'rmagatti/session-lens'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 "插件配置结束
 call plug#end()
 lua <<EOF
