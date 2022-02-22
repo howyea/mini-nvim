@@ -27,6 +27,8 @@ nnoremap mf :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
 "设置侧边栏窗口宽度
 let NERDTreeWinSize=60
+"设置侧边栏右边展示
+let NERDTreeWinPos='right'
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
