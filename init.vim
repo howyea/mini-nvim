@@ -25,6 +25,8 @@ Plug 'scrooloose/nerdtree'
 nnoremap mt :NERDTreeToggle<CR>
 nnoremap mf :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
+"设置侧边栏窗口宽度
+let NERDTreeWinSize=60
 Plug 'neovim/nvim-lspconfig'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
