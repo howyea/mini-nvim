@@ -43,6 +43,7 @@ let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
 "这个是安装字体后 必须设置此项" 
 "let g:airline_powerline_fonts = 1
 set laststatus=2  "永远显示状态栏
+set clipboard=unnamedplus
 let g:airline_theme='google_dark' "选择主题
 let g:airline#extensions#tabline#enabled=1    "Smarter tab line: 显示窗口tab和buffer
 let g:airline#extensions#whitespace#enabled = 0
