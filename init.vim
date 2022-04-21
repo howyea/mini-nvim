@@ -19,7 +19,7 @@ set autoindent "表示自动缩进
 "插件配置开始
 call plug#begin('~/.vim/plugged')
 set encoding=UTF-8
-
+let g:plug_url_format = 'git@github.com:%S.git'
 " NERDTree
 Plug 'scrooloose/nerdtree'
 nnoremap mt :NERDTreeToggle<CR>
