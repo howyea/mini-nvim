@@ -72,147 +72,147 @@ _G.packer_plugins = {
   ["bufferline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
-    url = "https://github.com/akinsho/bufferline.nvim"
+    url = "git@github.com:akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
-    url = "https://github.com/hrsh7th/cmp-buffer"
+    url = "git@github.com:hrsh7th/cmp-buffer"
   },
   ["cmp-cmdline"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-cmdline",
-    url = "https://github.com/hrsh7th/cmp-cmdline"
+    url = "git@github.com:hrsh7th/cmp-cmdline"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+    url = "git@github.com:hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lsp-signature-help"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp-signature-help",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help"
+    url = "git@github.com:hrsh7th/cmp-nvim-lsp-signature-help"
   },
   ["cmp-path"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
-    url = "https://github.com/hrsh7th/cmp-path"
+    url = "git@github.com:hrsh7th/cmp-path"
   },
   ["cmp-vsnip"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip",
-    url = "https://github.com/hrsh7th/cmp-vsnip"
+    url = "git@github.com:hrsh7th/cmp-vsnip"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
-    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+    url = "git@github.com:lukas-reineke/indent-blankline.nvim"
   },
   ["lua-dev.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lua-dev.nvim",
-    url = "https://github.com/folke/lua-dev.nvim"
+    url = "git@github.com:folke/lua-dev.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
+    url = "git@github.com:nvim-lualine/lualine.nvim"
   },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
+    url = "git@github.com:EdenEast/nightfox.nvim"
   },
   ["nord.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
+    url = "git@github.com:shaunsingh/nord.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
+    url = "git@github.com:hrsh7th/nvim-cmp"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
-    url = "https://github.com/williamboman/nvim-lsp-installer"
+    url = "git@github.com:williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
+    url = "git@github.com:neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
+    url = "git@github.com:kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+    url = "git@github.com:nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
+    url = "git@github.com:kyazdani42/nvim-web-devicons"
   },
   ["oceanic-next"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\oceanic-next",
-    url = "https://github.com/mhartington/oceanic-next"
+    url = "git@github.com:mhartington/oceanic-next"
   },
   ["onedark.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedark.nvim",
-    url = "https://github.com/navarasu/onedark.nvim"
+    url = "git@github.com:navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
-    url = "https://github.com/wbthomason/packer.nvim"
+    url = "git@github.com:wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
+    url = "git@github.com:nvim-lua/plenary.nvim"
   },
   ["rust-tools.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rust-tools.nvim",
-    url = "https://github.com/simrat39/rust-tools.nvim"
+    url = "git@github.com:simrat39/rust-tools.nvim"
   },
   ["telescope-env.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-env.nvim",
-    url = "https://github.com/LinArcX/telescope-env.nvim"
+    url = "git@github.com:LinArcX/telescope-env.nvim"
   },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-ui-select.nvim",
-    url = "https://github.com/nvim-telescope/telescope-ui-select.nvim"
+    url = "git@github.com:nvim-telescope/telescope-ui-select.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
+    url = "git@github.com:nvim-telescope/telescope.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
+    url = "git@github.com:folke/tokyonight.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip",
-    url = "https://github.com/hrsh7th/vim-vsnip"
+    url = "git@github.com:hrsh7th/vim-vsnip"
   },
   ["zephyr-nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\zephyr-nvim",
-    url = "https://github.com/glepnir/zephyr-nvim"
+    url = "git@github.com:glepnir/zephyr-nvim"
   }
 }
 
