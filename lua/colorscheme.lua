@@ -3,7 +3,7 @@ vim.o.background = "dark"
 -- 半透明
 -- vim.g.tokyonight_transparent = true
 -- vim.g.tokyonight_transparent_sidebar = true
-local colorscheme = "zephyr"
+local colorscheme = "onedark"
 -- tokyonight
 -- OceanicNext
 -- zephyr
