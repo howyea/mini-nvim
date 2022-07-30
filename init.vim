@@ -116,7 +116,7 @@ require("plugin-config.lualine")
 -------telescope setting-----------
 -- require("plugin-config.telescope")
 -----------------------------------
-require'lspconfig'.tsserver.setup{}
+-- require'lspconfig'.tsserver.setup{}
 require'nvim-treesitter.configs'.setup {
   -- 安装 language parser
   -- :TSInstallInfo 命令查看支持的语言
