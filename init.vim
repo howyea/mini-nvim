@@ -75,8 +75,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " -------telescope-------------------
 Plug 'nvim-lua/plenary.nvim'
 Plug 'rmagatti/auto-session'
-" Plug 'rmagatti/session-lens'
-" Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
+Plug 'rmagatti/session-lens'
+Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
   "-- telescope extensions
 " Plug 'LinArcX/telescope-env.nvim'
 " Plug 'nvim-telescope/telescope-ui-select.nvim'
@@ -88,9 +88,9 @@ Plug 'rmagatti/auto-session'
 " Plug 'liuchengxu/vim-clap', { 'do': 'Clap install-binary' }
 " let g:clap_theme = 'material_design_dark'
 " ________________________
-Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
-let g:Lf_WindowPosition = 'popup'
-let g:Lf_PreviewInPopup = 1
+" Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+" let g:Lf_WindowPosition = 'popup'
+" let g:Lf_PreviewInPopup = 1
 " -------theme------------
  "   -- onedark
   Plug 'ful1e5/onedark.nvim'
