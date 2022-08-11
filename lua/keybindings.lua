@@ -24,7 +24,14 @@ map("n", "<leader>l", "<C-w>l", opt)
 map("n", "<tab>j", ":bn<CR>", opt)
 map("n", "<tab>k", ":bp<CR>", opt)
 map("n", "<leader>bd", ":bd<CR>", opt)
-
+-- terminal key
+map("t", "<esc>", [[<C-\><C-n>]], opt)
+map("t", "<C-h>", [[<Cmd>wincmd h<CR>]], opt)
+map("t", "<C-j>", [[<Cmd>wincmd j<CR>]], opt)
+map("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opt)
+map("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opt)
+map("n", "<A-t>", [[:ToggleTerm<CR>]], opt)
+map("n", "<tab>t", [[:ToggleTermToggleAll<CR>]], opt)
 -- nvimTree  alt+m 打开菜单 -> a 创建文件 -> o 打开文件夹 -> r 重命名为 -> c 拷贝 -> p 粘贴 -> d 删除文件
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
 -- 列表快捷键
