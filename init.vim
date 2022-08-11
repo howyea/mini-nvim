@@ -94,6 +94,9 @@ Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
 " -------theme------------
   Plug 'mhartington/oceanic-next'
 " ------------------------
+" -------toggleterm-------
+  Plug 'akinsho/toggleterm.nvim', {'tag': 'v2.*'}
+" ------------------------
 "插件配置结束
 call plug#end()
 lua <<EOF
@@ -112,6 +115,12 @@ require("plugin-config.lualine")
 -------theme------------
 require("colorscheme")
 ------------------------
+-------toggleterm-------
+require("toggleterm").setup{
+  direction = 'float'
+}
+------------------------
+
 -------telescope setting-----------
 -- require("plugin-config.telescope")
 -----------------------------------
