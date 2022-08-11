@@ -92,8 +92,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
 " let g:Lf_WindowPosition = 'popup'
 " let g:Lf_PreviewInPopup = 1
 " -------theme------------
- "   -- onedark
-  Plug 'ful1e5/onedark.nvim'
+  Plug 'mhartington/oceanic-next'
 " ------------------------
 "插件配置结束
 call plug#end()
@@ -111,7 +110,7 @@ require('plugin-config/nvim-tree')
 require("plugin-config.lualine")
 ------------------------
 -------theme------------
--- require("colorscheme")
+require("colorscheme")
 ------------------------
 -------telescope setting-----------
 -- require("plugin-config.telescope")
