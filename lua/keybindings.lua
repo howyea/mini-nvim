@@ -13,7 +13,7 @@ local map = vim.api.nvim_set_keymap
 
 
 map("n", "<leader>w", ":w!<CR>", opt)
-map("n", "<leader>wq", ":wqa!<CR>", opt)
+map("n", "<leader>sq", ":wqa!<CR>", opt)
 map("n", "<leader>ss", ":wall<CR>", opt)
 -- <leader> + hjkl 窗口之间跳转
 map("n", "<leader>h", "<C-w>h", opt)
