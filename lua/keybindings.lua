@@ -73,8 +73,8 @@ pluginKeys.nvimTreeList = { -- 打开文件或文件夹
 -- map("n", "<leader>bo", ":BufferLineCloseRight<CR>:BufferLineCloseLeft<CR>", opt) -- 关闭其他标签页
 -- map("n", "<leader>bp", ":BufferLinePickClose<CR>", opt) -- 关闭选中标签页
 -- treesitter 折叠
-map("n", "zz", ":foldclose<CR>", opt)
-map("n", "Z", ":foldopen<CR>", opt)
+--map("n", "zz", ":foldclose<CR>", opt)
+--map("n", "Z", ":foldopen<CR>", opt)
 -- nvim-treesitter 代码格式化
 map("n", "<leader>i", "gg=G", opt)
 -- lsp 回调函数快捷键设置
