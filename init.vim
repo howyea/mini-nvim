@@ -127,7 +127,7 @@ require("toggleterm").setup{
       return vim.o.columns * 0.5
     end
   end,
-  direction = 'vertical',
+--  direction = 'vertical',
 --  direction = 'float'
 --  direction = 'tab'
 }
