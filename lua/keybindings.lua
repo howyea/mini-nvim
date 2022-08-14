@@ -77,29 +77,6 @@ map("n", "zz", ":foldclose<CR>", opt)
 map("n", "Z", ":foldopen<CR>", opt)
 -- nvim-treesitter 代码格式化
 map("n", "<leader>i", "gg=G", opt)
--- vim-clap 
--- map("n", "<C-p>", ":Clap files<CR>", opt)
--- map("n", "<C-f>", ":Clap grep<CR>", opt)
--- Telescope 列表中 插入模式快捷键
--- pluginKeys.telescopeList = {
-  -- i = {
-    -- 上下移动
-    -- ["<C-j>"] = "move_selection_next",
-    -- ["<C-k>"] = "move_selection_previous",
-    -- ["<C-n>"] = "move_selection_next",
-    -- ["<C-p>"] = "move_selection_previous",
-    -- 历史记录
-    -- ["<Down>"] = "cycle_history_next",
-    -- ["<Up>"] = "cycle_history_prev",
-    -- 关闭窗口
-    -- ["<esc>"] = actions.close,
-    -- ["<C-c>"] = "close",
-    -- 预览窗口上下滚动
-    -- ["<C-u>"] = "preview_scrolling_up",
-    -- ["<C-d>"] = "preview_scrolling_down",
-	-- },
--- }
-
 -- lsp 回调函数快捷键设置
 pluginKeys.maplsp = function(mapbuf)
   -- rename
