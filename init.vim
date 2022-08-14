@@ -97,6 +97,7 @@ Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
 " -------toggleterm-------
   Plug 'akinsho/toggleterm.nvim', {'tag': 'v2.*'}
 " ------------------------
+Plug 'lukas-reineke/indent-blankline.nvim'
 "插件配置结束
 call plug#end()
 lua <<EOF
@@ -120,8 +121,8 @@ require("colorscheme")
 require("plugin-config/toggleterm")
 ------------------------
 
--------telescope setting-----------
--- require("plugin-config.telescope")
+-------indent-blankline setting-----------
+require("plugin-config.indent-blankline")
 -----------------------------------
 -- require'lspconfig'.tsserver.setup{}
 
