@@ -1,12 +1,12 @@
 require("toggleterm").setup{
   size = function(term)
     if term.direction == "horizontal" then
-      return vim.o.columns * 0.05
+      return 20
     elseif term.direction == "vertical" then
-      return vim.o.columns * 0.5
+      return vim.o.columns * 0.3
     end
   end,
---  direction = 'vertical',
+direction = 'vertical',
 --  direction = 'float'
 --  direction = 'tab'
 }
