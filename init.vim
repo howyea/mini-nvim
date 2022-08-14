@@ -23,46 +23,11 @@ let g:plug_url_format = 'git@github.com:%S.git'
 " ------------ dependent ------------
 Plug 'kyazdani42/nvim-web-devicons' " nvim-tree.lua | bufferline.nvim
 Plug 'moll/vim-bbye' " bufferline.nvim
-" ------------ NERDTree -------------
-" Plug 'scrooloose/nerdtree'
-" nnoremap mt :NERDTreeToggle<CR>
-" nnoremap mf :NERDTreeFind<CR>
-" let NERDTreeShowHidden=1
-"设置侧边栏窗口宽度
-" let NERDTreeWinSize=60
-"设置侧边栏右边展示
-" let NERDTreeWinPos='right'
 " -----------------------------------
 " ------------ nvim-tree ------------
 Plug 'kyazdani42/nvim-tree.lua'
 " -----------------------------------
 Plug 'neovim/nvim-lspconfig'
-" ---------vim-airline---------------
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" nnoremap <tab>j :bn<CR>
-" nnoremap <tab>k :bp<CR>
-" nnoremap <leader>bd :bd<CR>
-" nnoremap <leader><tab> :Telescope buffers<CR>
-" nnoremap <leader>ss :wall<CR>
-" nnoremap <tab>b :b#<CR>
-" @airline
-" let g:airline#extensions#tabline#enabled = 1   " 是否打开tabline
-"这个是安装字体后 必须设置此项" 
-"let g:airline_powerline_fonts = 1
-" set laststatus=2  "永远显示状态栏
-" set clipboard=unnamedplus
-" let g:airline_theme='google_dark' "选择主题
-" let g:airline#extensions#tabline#enabled=1    "Smarter tab line: 显示窗口tab和buffer
-" let g:airline#extensions#whitespace#enabled = 0
-" let g:airline#extensions#whitespace#symbol = '!'
-"let g:airline#extensions#tabline#left_sep = ' '  "separater
-"let g:airline#extensions#tabline#left_alt_sep = '|'  "separater
-"let g:airline#extensions#tabline#formatter = 'unique_tail'  "formater
-"let g:airline_left_sep = '▶'
-"let g:airline_left_alt_sep = '❯'
-"let g:airline_right_sep = '◀'
-"let g:airline_right_alt_sep = '❮'
 " -----------------------------------	
 " ---------bufferline.nvim-----------
 Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' } 
@@ -77,20 +42,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'rmagatti/auto-session'
 Plug 'rmagatti/session-lens'
 Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
-  "-- telescope extensions
-" Plug 'LinArcX/telescope-env.nvim'
-" Plug 'nvim-telescope/telescope-ui-select.nvim'
 " -----------------------------------
-" nnoremap <leader>df :Telescope lsp_definitions<CR>
-" nnoremap <leader>lg :Telescope live_grep<CR>
-" nnoremap <leader>ff :Telescope find_files<CR>
-" -------vim-clap---------
-" Plug 'liuchengxu/vim-clap', { 'do': 'Clap install-binary' }
-" let g:clap_theme = 'material_design_dark'
-" ________________________
-" Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
-" let g:Lf_WindowPosition = 'popup'
-" let g:Lf_PreviewInPopup = 1
 " -------theme------------
   Plug 'mhartington/oceanic-next'
 " ------------------------

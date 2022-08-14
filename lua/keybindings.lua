@@ -28,6 +28,11 @@ map("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opt)
 map("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opt)
 map("n", "<leader>t", [[:ToggleTerm<CR>]], opt)
 map("n", "<tab>t", [[:ToggleTermToggleAll<CR>]], opt)
+-- telescope key
+map("n", "<leader>q", ":Telescope lsp_definitions<CR>", opt)
+map("n", "<leader>f", ":Telescope live_grep<CR>", opt)
+map("n", "<leader>p", ":Telescope find_files<CR>", opt)
+
 -- nvimTree  alt+m 打开菜单 -> a 创建文件 -> o 打开文件夹 -> r 重命名为 -> c 拷贝 -> p 粘贴 -> d 删除文件
 map('n', '<leader>m', ':NvimTreeToggle<CR>', opt)
 -- 列表快捷键
