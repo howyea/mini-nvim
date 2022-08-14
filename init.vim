@@ -106,8 +106,6 @@ require('keybindings')
 -- nvim tree setting ---
 require('plugin-config/nvim-tree')
 ------------------------
--- bufferline seting ---
--- require("plugin-config.bufferline")
 ------------------------
 -- lualine.nvim setting-
 require("plugin-config.lualine")

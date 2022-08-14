@@ -20,10 +20,6 @@ map("n", "<leader>h", "<C-w>h", opt)
 map("n", "<leader>j", "<C-w>j", opt)
 map("n", "<leader>k", "<C-w>k", opt)
 map("n", "<leader>l", "<C-w>l", opt)
--- buffer relation
-map("n", "<tab>j", ":bn<CR>", opt)
-map("n", "<tab>k", ":bp<CR>", opt)
-map("n", "<leader>bd", ":bd<CR>", opt)
 -- terminal key
 map("t", "<leader>q", [[<C-\><C-n>]], opt)
 map("t", "<C-h>", [[<Cmd>wincmd h<CR>]], opt)
@@ -64,14 +60,10 @@ pluginKeys.nvimTreeList = { -- 打开文件或文件夹
   -- 进入上一级
   { key = { "[" }, action = "dir_up" },
 }
--- bufferline 左右Tab切换
--- map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
--- map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
--- map("n", "<leader>bc", ":Bdelete!<CR>", opt) -- 关闭当前 buffer
--- map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt) -- 关闭左侧标签页
--- map("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt) -- 关闭右侧标签页
--- map("n", "<leader>bo", ":BufferLineCloseRight<CR>:BufferLineCloseLeft<CR>", opt) -- 关闭其他标签页
--- map("n", "<leader>bp", ":BufferLinePickClose<CR>", opt) -- 关闭选中标签页
+-- buffer左右Tab切换
+map("n", "<tab>k", ":bp<CR>", opt)
+map("n", "<tab>j", ":bn<CR>", opt)
+map("n", "<leader>bd", ":bd<CR>", opt) -- 关闭当前 buffer
 -- treesitter 折叠
 --map("n", "zz", ":foldclose<CR>", opt)
 --map("n", "Z", ":foldopen<CR>", opt)
