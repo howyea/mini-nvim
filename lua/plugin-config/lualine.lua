@@ -24,26 +24,29 @@ lualine.setup({
   extensions = { "nvim-tree", "toggleterm" },
   sections = {
     lualine_c = {
-      "filename",
       {
-        "lsp_progress",
-        spinner_symbols = { " ", " ", " ", " ", " ", " " },
+        "filename",
+        -- 0: just the filename
+        -- !: relative path
+        -- 2: absolute path
+        -- 3: absolute path, with tilde as the home directory
+        path = 1,
       },
     },
     lualine_x = {
       "filesize",
       {
         "fileformat",
-        -- symbols = {
-        --   unix = '', -- e712
-        --   dos = '', -- e70f
-        --   mac = '', -- e711
-        -- },
         symbols = {
-          unix = "LF",
-          dos = "CRLF",
-          mac = "CR",
+          unix = '', -- e712
+          dos = '', -- e70f
+          mac = '', -- e711
         },
+        --symbols = {
+        --  unix = "LF",
+        --  dos = "CRLF",
+        --  mac = "CR",
+        --},
       },
       "encoding",
       "filetype",
