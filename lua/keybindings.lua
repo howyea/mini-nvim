@@ -1,6 +1,6 @@
 -- leader key 为空格
-vim.g.mapleader = "@"
-vim.g.maplocalleader = "@"
+vim.g.mapleader = "\"
+vim.g.maplocalleader = "\"
 
 local opt = {
   noremap = true,
