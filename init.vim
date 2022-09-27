@@ -5,7 +5,7 @@ endif
 "插件配置开始
 call plug#begin('~/.vim/plugged')
 set encoding=UTF-8
-let g:plug_url_format = 'git@github.com:%S.git'
+" let g:plug_url_format = 'git@github.com:%S.git'
 " ------------ dependent ------------
 Plug 'kyazdani42/nvim-web-devicons' " nvim-tree.lua | bufferline.nvim
 Plug 'moll/vim-bbye' " bufferline.nvim
@@ -13,7 +13,36 @@ Plug 'moll/vim-bbye' " bufferline.nvim
 " ------------ nvim-tree ------------
 Plug 'kyazdani42/nvim-tree.lua'
 " -----------------------------------
+" ----------lsp-----------
+Plug 'williamboman/nvim-lsp-installer'
 Plug 'neovim/nvim-lspconfig'
+" 补全引擎
+Plug 'hrsh7th/nvim-cmp'
+"    -- Snippet 引擎
+Plug 'hrsh7th/vim-vsnip'
+"    -- 补全源
+Plug 'hrsh7th/cmp-vsnip'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/cmp-nvim-lsp-signature-help'
+"    -- 常见编程语言代码段
+Plug 'rafamadriz/friendly-snippets'
+"    -- UI 增强
+Plug 'onsails/lspkind-nvim'
+Plug 'tami5/lspsaga.nvim'
+"    -- 代码格式化
+Plug 'mhartington/formatter.nvim'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+"    -- TypeScript 增强
+Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
+"    -- Lua 增强
+Plug 'folke/lua-dev.nvim'
+"    -- JSON 增强
+Plug 'b0o/schemastore.nvim'
+"    -- Rust 增强
+Plug 'simrat39/rust-tools.nvim'
 " -----------------------------------	
 " ---------bufferline.nvim-----------
 Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' } 
@@ -62,8 +91,8 @@ require("plugin-config/toggleterm")
 -------indent-blankline setting-----------
 require("plugin-config.indent-blankline")
 -----------------------------------
--- require'lspconfig'.tsserver.setup{}
-
+-------LSP--------------
+require("lsp.setup")
 require('settings')
 EOF
 
