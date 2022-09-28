@@ -57,6 +57,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'rmagatti/auto-session'
 Plug 'rmagatti/session-lens'
 Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
+Plug 'nvim-telescope/telescope-ui-select.nvim'
 " -----------------------------------
 " -------theme------------
   Plug 'mhartington/oceanic-next'
@@ -65,6 +66,8 @@ Plug 'nvim-telescope/telescope.nvim', { 'branch': '0.1.x' }
   Plug 'akinsho/toggleterm.nvim', {'tag': 'v2.*'}
 " ------------------------
 Plug 'lukas-reineke/indent-blankline.nvim'
+" -------flutter-tools----
+Plug 'akinsho/flutter-tools.nvim'
 "插件配置结束
 call plug#end()
 lua <<EOF
@@ -94,7 +97,11 @@ require("plugin-config.indent-blankline")
 -------LSP--------------
 require("lsp.setup")
 require('settings')
+require('flutter-tools').setup{}
+-------Telescope--------
+require('plugin-config.telescope')
 EOF
+
 
 
 
