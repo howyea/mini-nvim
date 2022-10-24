@@ -5,7 +5,7 @@ endif
 "插件配置开始
 call plug#begin('~/.vim/plugged')
 set encoding=UTF-8
-" let g:plug_url_format = 'git@github.com:%S.git'
+let g:plug_url_format = 'git@github.com:%S.git'
 " ------------ dependent ------------
 Plug 'kyazdani42/nvim-web-devicons' " nvim-tree.lua | bufferline.nvim
 Plug 'moll/vim-bbye' " bufferline.nvim
@@ -38,7 +38,7 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 "    -- TypeScript 增强
 Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 "    -- Lua 增强
-Plug 'folke/lua-dev.nvim'
+Plug 'folke/neodev.nvim'
 "    -- JSON 增强
 Plug 'b0o/schemastore.nvim'
 "    -- Rust 增强
@@ -95,9 +95,9 @@ require("plugin-config/toggleterm")
 require("plugin-config.indent-blankline")
 -----------------------------------
 -------LSP--------------
-require("lsp.setup")
+-- require("lsp.setup")
 require('settings')
-require('flutter-tools').setup{}
+-- require('flutter-tools').setup{}
 -------Telescope--------
 require('plugin-config.telescope')
 EOF
