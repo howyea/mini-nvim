@@ -30,14 +30,6 @@ nvim_tree.setup({
     width = 34,
     -- 也可以 'left'
     side = "right",
-    -- 隐藏根目录
-    hide_root_folder = true,
-    -- 自定义列表中快捷键
-    mappings = {
-      -- 只用内置快捷键
-      -- custom_only = true,
-      -- list = list_keys,
-    },
     -- 不显示行数
     number = false,
     relativenumber = false,

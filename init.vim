@@ -65,9 +65,6 @@ Plug 'nvim-telescope/telescope-ui-select.nvim'
 " -------toggleterm-------
   Plug 'akinsho/toggleterm.nvim', {'tag': 'v2.*'}
 " ------------------------
-Plug 'lukas-reineke/indent-blankline.nvim'
-" -------flutter-tools----
-Plug 'akinsho/flutter-tools.nvim'
 "插件配置结束
 call plug#end()
 lua <<EOF
@@ -91,9 +88,6 @@ require("colorscheme")
 require("plugin-config/toggleterm")
 ------------------------
 
--------indent-blankline setting-----------
-require("plugin-config.indent-blankline")
------------------------------------
 -------LSP--------------
 -- require("lsp.setup")
 require('settings')
